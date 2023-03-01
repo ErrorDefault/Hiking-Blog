@@ -40,6 +40,8 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
                 author={post.author}
                 location={post.location}
+                streetAddress={post.streetAddress}
+                googleMapsLink={post.googleMapsLink}
               />
               <PostBody content={post.content} />
             </article>

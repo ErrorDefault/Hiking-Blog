@@ -48,6 +48,18 @@
         "label": "location"
       }
     },
+    "streetAddress": {
+      "type": "Symbol",
+      "config": {
+        "label": "streetAddress"
+      }
+    },
+    "googleMapsLink": {
+      "type": "Symbol",
+      "config": {
+        "label": "googleMapsLink"
+      }
+    },
     "uid": {
       "type": "UID",
       "config": {
