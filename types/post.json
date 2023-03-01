@@ -42,6 +42,12 @@
         "label": "author"
       }
     },
+    "location": {
+      "type": "Location",
+      "config": {
+        "label": "location"
+      }
+    },
     "uid": {
       "type": "UID",
       "config": {
