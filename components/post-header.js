@@ -9,7 +9,7 @@ export default function PostHeader({ title, coverImage, date, author, location, 
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <div className="text-base md:text-lg lg:text-xl mb-12 hover:underline text-center md:text-left">
+      <div className="text-base md:text-lg lg:text-xl mb-12 text-center md:text-left hover:text-success duration-200 transition-colors">
         <a href={googleMapsLink} target="_blank">{`${streetAddress} (${formattedLat}, ${formattedLon})`}</a>
       </div>
       <div className="hidden md:block md:mb-12">
